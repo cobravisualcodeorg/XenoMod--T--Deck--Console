@@ -1,5 +1,7 @@
 # Xenomod T Deck Console
 
+
+
 Xenomod T Deck Console es una interfaz de línea de comandos (CLI) para la **LilyGO T-Deck** con ESP32-S3, desarrollada por **CobraVisualCode.org**. Proporciona una experiencia de consola interactiva con soporte para comandos básicos, ejecución de scripts en Python y navegación de archivos.
 
 ## Características
@@ -15,15 +17,17 @@ Xenomod T Deck Console es una interfaz de línea de comandos (CLI) para la **Lil
 ## Requisitos
 
 - **LilyGO T-Deck** con ESP32-S3.
-- **Firmware MicroPython** compatible.
-- **Bibliotecas necesarias:** `st7789`, `machine`, `os`, `_thread`, `gc`, `time`.
+- **Firmware MicroPython** compatible. 👉https://github.com/cobravisualcodeorg/LilyGO-T-Deck-micropython-ES/tree/main/Firmware%2Cs
+
 
 ## Instalación
+1. **descarga este repositorio**
+2. **Sube el código** con un entorno compatible con MicroPython. si no tienes uno te recomiendo thonny 👉https://thonny.org/
+ ![thonny](https://github.com/user-attachments/assets/28818597-4949-4aa0-bd81-3f39c429e08e)
 
-1. **Sube el código** a la T-Deck con un entorno compatible con MicroPython.
-2. **Asegúrate** de que las bibliotecas necesarias están disponibles en el sistema de archivos.Si decargaste el este repsitorio no deberia tener problemas con las librerias. siempre y cuando instales el firmware que se encuentra en este repositorio.
+5. **Asegúrate** de que las bibliotecas necesarias están disponibles en el sistema de archivos.Si decargaste el este repositorio no deberia tener problemas con las librerias. siempre y cuando instales el firmware que se encuentra en este repositorio.
 
-## Uso
+## Uso (Beta)
 
 ### Comandos Disponibles
 
@@ -46,9 +50,8 @@ Xenomod T Deck Console es una interfaz de línea de comandos (CLI) para la **Lil
 ## Créditos
 
 Desarrollado por **Kevin Nazario** para **CobraVisualCode.org**.
-
+______________________________
 🐰 Proyecto en fase **Beta**.
+______________________________
 
----
-"Xenomod FT CSP version v.1" - 2025
 
